@@ -408,17 +408,9 @@ p {
         opacity: 0;
     }
     
-    .box1:hover{
+    .box1:hover{background-color: blue;}
     
-    background-color: blue;
-    
-    }
-    
-    .box2:hover{
-    
-        background-color: red;
-    
-    }
+    .box2:hover{background-color: red;}
     
     
     
