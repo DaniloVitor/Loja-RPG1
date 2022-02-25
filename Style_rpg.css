@@ -72,7 +72,7 @@ a {
     background-color: #262626;
     border-radius: 100% 100% 100% 100%;
     font-size: 22px;
-    background-image:url(./yin-yang-symbol-variant.png) ;
+    background-image:url(./yin-yang-symbol-variant.png);
     background-size: 60px;
 }
 
@@ -114,7 +114,7 @@ a {
     padding: 30px;
     transition:left 0.5s, opacity 0.7s;
     opacity: 0;
-    background-image: url(./imagens_naruto/unnamed.png);
+    background-image: url(./unnamed.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
    
@@ -148,12 +148,12 @@ a {
 
 /* TABLETS */
 
-@media screen and ( max-width: 768px){
+@media screen and (max-width:768px){
 
 
     body{
 
-        background-image: url(./imagens_naruto/akatsuki.png);
+        background-image: url(./akatsuki.png);
         background-repeat: no-repeat;
         background-size: 100%  100%;
     }
@@ -210,7 +210,7 @@ a {
         background-color: #262626;
         border-radius: 100% 100% 100% 100%;
         font-size: 22px;
-        background-image:url(./imagens_naruto/yin-yang-symbol-variant.png) ;
+        background-image:url(./yin-yang-symbol-variant.png);
         background-size: 60px;
     }
     
@@ -252,7 +252,7 @@ a {
         padding: 30px;
         transition:left 0.5s, opacity 0.7s;
         opacity: 0;
-        background-image: url(./imagens_naruto/unnamed.png);
+        background-image: url(./unnamed.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
        
@@ -287,7 +287,7 @@ a {
 
     body{
 
-        background-image: url(/RPG/imagens_naruto/20abfbad2004e52f094b040dd17b129a.jpg);
+        background-image: url(20abfbad2004e52f094b040dd17b129a.jpg);
         background-repeat: no-repeat;
         background-size: 100%  100%;
 
@@ -347,7 +347,7 @@ a {
         background-color: #ffffff;
         border-radius: 100% 100% 100% 100%;
         font-size: 22px;
-        background-image:url(./imagens_naruto/yin-yang-symbol-variant.png) ;
+        background-image:url(./yin-yang-symbol-variant.png) ;
         background-size: 40px;
         background-repeat: no-repeat;
 
@@ -392,7 +392,7 @@ a {
         padding: 30px;
         transition:left 0.5s, opacity 0.7s;
         opacity: 0;
-        background-image: url(./imagens_naruto/unnamed.png);
+        background-image: url(./unnamed.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         
