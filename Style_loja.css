@@ -16,7 +16,7 @@ body {
 
 
     background-color: rgb(163, 134, 134);
-    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(90, 90, 90)) ;
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(90, 90, 90));
     /* background-repeat: no-repeat; */
 }
 
@@ -30,7 +30,7 @@ h1,h2,h3,p {
 h1 {
 
     
-    margin-right: 20% ;
+    margin-right: 20%;
     margin-top: 10%;
     margin-left: 45%;
     font-size: 200%;
@@ -142,7 +142,7 @@ p {
     padding: 30px;
     transition:left 0.5s, opacity 0.7s;
     opacity: 0;
-    background-image: url(./imagens_naruto/20abfbad2004e52f094b040dd17b129a.jpg);
+    background-image: url(./20abfbad2004e52f094b040dd17b129a.jpg);
     background-repeat: no-repeat;
     background-size: 100% ;
    
@@ -230,7 +230,7 @@ p {
         background-color: #262626;
         border-radius: 100% 100% 100% 100%;
         font-size: 22px;
-        background-image:url(./imagens_naruto/yin-yang-symbol-variant.png) ;
+        background-image:url(./imagens_naruto/yin-yang-symbol-variant.png);
         background-size: 50px;
     }
     
@@ -287,7 +287,7 @@ p {
         padding: 30px;
         transition:left 0.5s, opacity 0.7s;
         opacity: 0;
-        background-image: url(./imagens_naruto/naruto___reincarnations_by_darthshizuka-daze18z-600x424.jpg);
+        background-image: url(./naruto___reincarnations_by_darthshizuka-daze18z-600x424.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100% ;
        
@@ -381,7 +381,7 @@ p {
         background-color: #262626;
         border-radius: 100% 100% 100% 100%;
         font-size: 22px;
-        background-image:url(./imagens_naruto/yin-yang-symbol-variant.png) ;
+        background-image:url(./imagens_naruto/yin-yang-symbol-variant.png);
         background-size: 30px;
     }
     
@@ -438,7 +438,7 @@ p {
         padding: 30px;
         transition:left 0.5s, opacity 0.7s;
         opacity: 0;
-        background-image: url(./imagens_naruto/20abfbad2004e52f094b040dd17b129a.jpg);
+        background-image: url(./20abfbad2004e52f094b040dd17b129a.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100% ;
        
