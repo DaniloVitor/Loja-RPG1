@@ -1,0 +1,485 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    
+    height: 100%;
+    
+}
+
+body {
+
+
+    background-color: rgb(163, 134, 134);
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(90, 90, 90)) ;
+    /* background-repeat: no-repeat; */
+}
+
+h1,h2,h3,p {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+h1 {
+
+    
+    margin-right: 20% ;
+    margin-top: 10%;
+    margin-left: 45%;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+h2 {
+
+    margin-left: 42%;
+
+
+
+}
+
+
+
+p, h3{
+
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+h3 {
+
+    margin-top: 5%;
+    font-size: 110%;
+    margin-bottom: 5%;
+
+}
+
+p {
+
+    font-size: 100%;
+    margin-bottom: 5%;
+
+
+
+}
+
+#abre-fecha{
+    display: none;
+    
+}
+
+.icone-box{
+
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: #262626;
+    border-radius: 100% 100% 100% 100%;
+    font-size: 22px;
+    background-image:url(./yin-yang-symbol-variant.png) ;
+    background-size: 60px;
+}
+
+.box1{
+
+    color: rgb(167, 0, 0);
+    background-color: rgb(167, 0, 0) ;
+    position: fixed;
+    top: calc( 50% - 30px );
+    left: 10px;
+    z-index: 1;
+    transition: 0.6s;
+}
+
+.box2{
+
+    background-color: #005A83;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    z-index: 3;
+    left: -60px;
+    transition: left  0.6s, opacity 0.2s;
+    transition: 0.6s;
+    opacity: 0;
+}
+
+.box1:hover{
+
+    background-color: blue;
+
+}
+
+.box2:hover{
+
+    background-color: red;
+
+}
+
+
+
+.selecaodaloja {
+
+    position: fixed;
+    top: 0px;
+    left: -80%;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 30px;
+    transition:left 0.5s, opacity 0.7s;
+    opacity: 0;
+    background-image: url(./imagens_naruto/20abfbad2004e52f094b040dd17b129a.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+   
+}
+
+.selecaodaloja a{
+
+    text-decoration: none;
+    color: red;
+    transition: 0.6s;
+
+
+}
+
+.selecaodaloja a:hover{
+
+    color: #005A83;
+
+
+
+}
+
+#abre-fecha:checked ~ .selecaodaloja
+
+{
+
+    left: 0%;
+    opacity: 1;
+
+}
+
+#abre-fecha:checked ~ .box2{
+
+    left: 40%;
+    opacity: 1;
+}
+
+
+
+/* TABLETS */
+
+@media screen and ( max-width: 768px){
+
+    h1 {
+
+    
+        margin-right: 15% ;
+        margin-top: 10%;
+        margin-left: 30%;
+        font-size: 40px;
+        color: #ffffff;
+    }
+
+    h2{
+
+        margin-left: 10%;
+        font-size: 30px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+
+    }
+
+    h3 {
+
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 25px;
+        margin-bottom: 10%;
+        color: #bbb9b9;
+    }
+    
+    p {
+    
+        font-size: 25px;
+        color: #bbb9b9;
+    
+    
+    }
+
+    .icone-box{
+
+        display: flex;
+        width: 50px;
+        height: 50px;
+        background-color: #262626;
+        border-radius: 100% 100% 100% 100%;
+        font-size: 22px;
+        background-image:url(./imagens_naruto/yin-yang-symbol-variant.png) ;
+        background-size: 50px;
+    }
+    
+    .box1{
+    
+        color: rgb(167, 0, 0);
+        background-color: rgb(167, 0, 0) ;
+        position: fixed;
+        top: 10px;
+        left: 90%;
+        z-index: 1;
+        transition: left  0.6s, opacity 0.2s;
+
+    }
+    
+    .box2{
+    
+        background-color: #005A83;
+        position: fixed;
+        top: 10px;
+        z-index: 3;
+        left: -60px;
+        transition: left  0.6s, opacity 0.2s;
+        opacity: 0;
+    }
+    
+    .box1:hover{
+    
+    background-color: blue;
+    
+    }
+    
+    .box2:hover{
+    
+        background-color: red;
+    
+    }
+    
+    
+    
+    .selecaodaloja {
+    
+        position: fixed;
+        top: 0px;
+        left: -80%;
+        width: 90%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        padding: 30px;
+        transition:left 0.5s, opacity 0.7s;
+        opacity: 0;
+        background-image: url(./imagens_naruto/naruto___reincarnations_by_darthshizuka-daze18z-600x424.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+       
+    }
+    
+    #abre-fecha:checked ~ .selecaodaloja
+    
+    {
+    
+        left: 0%;
+        opacity: 1;
+    
+    }
+    
+    #abre-fecha:checked ~ .box2{
+    
+        left: 80%;
+        opacity: 1;
+    }
+
+    #abre-fecha:checked ~ .box1{
+    
+        left: -110%;
+        opacity: 1;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+/* CELULARES */
+
+
+
+@media screen and ( max-width: 667px){
+
+    h1 {
+
+    
+        margin-right: 15% ;
+        margin-top: 10%;
+        margin-left: 30%;
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    h2{
+
+        margin-left: 10%;
+        font-size: 15px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+
+    }
+
+    h3 {
+
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 15px;
+        margin-bottom: 10%;
+        color: #bbb9b9;
+    }
+    
+    p {
+    
+        font-size: 15px;
+        color: #bbb9b9;
+    
+    
+    }
+
+    .icone-box{
+
+        display: flex;
+        width: 30px;
+        height: 30px;
+        background-color: #262626;
+        border-radius: 100% 100% 100% 100%;
+        font-size: 22px;
+        background-image:url(./imagens_naruto/yin-yang-symbol-variant.png) ;
+        background-size: 30px;
+    }
+    
+    .box1{
+    
+        color: rgb(167, 0, 0);
+        background-color: rgb(167, 0, 0) ;
+        position: fixed;
+        top: 10px;
+        left: 90%;
+        z-index: 1;
+        transition: left  0.6s, opacity 0.2s;
+
+    }
+    
+    .box2{
+    
+        background-color: #005A83;
+        position: fixed;
+        top: 10px;
+        z-index: 3;
+        left: -60px;
+        transition: left  0.6s, opacity 0.2s;
+        opacity: 0;
+    }
+    
+    .box1:hover{
+    
+    background-color: blue;
+    
+    }
+    
+    .box2:hover{
+    
+        background-color: red;
+    
+    }
+    
+    
+    
+    .selecaodaloja {
+    
+        position: fixed;
+        top: 0px;
+        left: -80%;
+        width: 90%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        padding: 30px;
+        transition:left 0.5s, opacity 0.7s;
+        opacity: 0;
+        background-image: url(./imagens_naruto/20abfbad2004e52f094b040dd17b129a.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+       
+    }
+    
+    #abre-fecha:checked ~ .selecaodaloja
+    
+    {
+    
+        left: 0%;
+        opacity: 1;
+    
+    }
+    
+    #abre-fecha:checked ~ .box2{
+    
+        left: 80%;
+        opacity: 1;
+    }
+
+    #abre-fecha:checked ~ .box1{
+    
+        left: -110%;
+        opacity: 1;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 217, 0);
+        font-size: 20px;
+        
+    }
+    
+
+
+
+
+
+
+
+
+
+
+}
