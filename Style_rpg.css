@@ -375,6 +375,10 @@ a {
         transition: left  0.6s, opacity 0.2s;
         opacity: 0;
     }
+    
+     . box1:hover{cor de fundo: azul;}
+    
+     . box2:hover{cor de fundo: vermelho;}
 
         .selecaodaloja {
 
