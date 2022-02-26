@@ -13,7 +13,7 @@ html {
 
 body {
     max-width: 1440px;
-    font-family:cursive ;
+    font-family: sans-serif;
     margin: auto;
     background-image: url(./akatsuki.png);
     background-size: 100% 100%;
