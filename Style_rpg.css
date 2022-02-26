@@ -334,7 +334,8 @@ p:hover{
 
 
     body{
-
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-image: url(./20abfbad2004e52f094b040dd17b129a.jpg);
         background-repeat: no-repeat;
         background-size: 100%  100%;
